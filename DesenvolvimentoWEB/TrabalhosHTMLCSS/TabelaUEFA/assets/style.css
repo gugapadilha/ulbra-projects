@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #E2E5E9;
+}
+
+section {
+    background: rgb(22, 46, 88); /* cor oficial do site */
+    padding: 10px;
+    width: 100%;
+    margin-top: auto;
+
+}
+
+h1 { 
+    color: rgb(255, 255, 255);
+
+}
+
+.topico {
+    color: hsla(0, 0%, 100%, 0.616);
+
+}
+
+.topicon{
+    text-align: center;
+
+}
+ul{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 40%;
+    margin: 0% auto;
+    list-style-type: none;
+}
+li{
+    text-transform: uppercase;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+
+}
+
+.tabela1{
+    width: 60%;
+    margin: 0 auto; /* sempre p deixar um quadrado no meio */
+    background-color: #fff;
+    margin-top: 30px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12), 0px 4px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.tabela1 h2{
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.lineTitle{
+    width: 100%;
+    margin-top: 15px;
+    color: grey;
+    display: flex;
+}
+
+.left{
+    display: flex;
+    width: 50%;
+}
+
+.left p{
+    margin-left: 15px;
+}
+
+
+.right{
+    display: flex;
+    width: 50%;
+}
+
+.right p{
+    margin-right: 15px;
+    width: 25px;
+}
+
+.right p:last-child {
+    width: 100px;
+}
+
+
+.separador{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 15px;
+}
+
+.lineTeams{
+    width: 100%;
+    display: flex;
+    padding: 15px; /* criar um esapcamento interno */
+    border-bottom: 1px solid gray;
+}
+
+.lineTeams span{
+    margin-left: 15px;
+}
+
+.lineTeams img{
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
+
+.lineTeams .left, .lineTeams .right{
+    align-items: center;
+}
+
+.lineTeams .ball{ 
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+
+}
+
+.win{
+    background-image: url(../assets/v.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.lose{
+    background-image: url(../assets/d.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.draw{
+    background-image: url(../assets/e.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.top1{
+    border-left: 3px solid #4285F4;
+}
+
+.top2{
+    border-left: 3px solid #FA7B17;
+}
+
+.top3{
+    border-left: 3px solid white;
+}
+
+/* TABELA GOLEADORES*/
+
+.linePlayer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.linePlayer p {
+    display: inline-block;
+}
+
+.linePlayer img{
+    height: 24px;
+    width: 24px;
+    display: block; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.lineTitle2{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+.left2{
+    margin-left: 15px;
+
+}
+
+.right2{
+    margin-right: 15px ;
+}
+
+.imageArrow{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.cabecalho {
+    display: flex;
+}
+
+/* TABELA OITAVAS DE FINAIS */
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.container2{
+    width: 60%;
+    background-color: white;
+    margin: 0% auto;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.container2 h2{
+    margin: 10px;
+}
+
+.tabjogos {
+    border: 1px solid #c9c9c9;
+}
+
+.partidas {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.jogo1 {
+    width: 50%; /* pegar metade da tela, por isso 50%  */
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #c9c9c9;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.time {
+    width: 50%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.time img{
+    width: 24px;
+    height: 24px;
+}
+
+.placar{
+    width: 10%;
+}
+
+.resultado{
+    width: 40%;
+    display: flex;
+}
+
+.jogo2 {
+    width: 50%; /* pegar metade da tela, por isso 50%  */
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #c9c9c9;
+}  
+
+
+.imgTime {
+    font-size: 16px;
+    margin: auto 0;
+    margin-left: 5px;
+
+} 
+
+.resultado strong{
+    margin-left: 40px;
+    font-size: 16px;  
+
+}
+
+.resultado p{
+    margin-left: 25px;
+    color: #7e7d7df1;
+
+}
+
+.cabecalhow{
+    margin-top: 10px;
+    font-size: 14px;
+    color: grey;
+    margin-left: 20px;
+}
+
+.cabecalhow2{
+    margin-top: 10px;
+    font-size: 14px;
+    color: grey;
+    margin-left: 325px;
+}
+
+.cabecalhos {
+    display: flex;
+}
+
+.partidas {
+    display: flex;
+    width: 100%;
+}
+
