@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 1.58;
+}
+
+.menu {
+    justify-content: center;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+}
+
+.menu h1 {
+    vertical-align: center;
+    padding: 20px 0;
+}
+
+.banner {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.principal {
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.ident{
+    text-align: justify;
+}
+
+.middle {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 40px;   
+}
+
+.principal h1 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.principal h2 {
+    color: rgba(0, 0, 0, 0.541176);
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 22px;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
