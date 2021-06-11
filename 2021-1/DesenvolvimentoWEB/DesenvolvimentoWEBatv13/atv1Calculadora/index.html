@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atvVini17</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form name="calcform" method="post" action="">
+
+            <h1>Calculadora</h1>
+
+            <label for="valor1">Digite o valor <strong>1</strong>:</label>
+            <input type="text" name="valor1" id="valor1" />
+
+            <label for="valor2">Digite o valor <strong>2</strong>:</label>
+            <input type="text" name="valor2" id="valor2" />
+
+            <label for="operacao">Selecione a operação:</label>
+            <select name="operacao" id="operacao">
+                <option value="somar">Somar</option>
+                <option value="subtrair">Subtrair</option>
+                <option value="multiplicar">Multiplifcar</option>
+                <option value="dividir">Dividir</option>
+            </select>
+
+            <label for="res">Resultado:</label>
+            <input type="text" name="res" id="res" />
+
+            <input type="button" value="Calcular" class="botao" onClick="calcular(document.calcform.operacao.value)" />
+
+        </form>
+    </div>
+</body>
+
+</html>
