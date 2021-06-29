@@ -1,0 +1,287 @@
+nome: Gustavo Padilha
+
+1.
+programa {
+    funcao inicio() {
+
+        inteiro num[6], impares[6], pares[6], contImpar=0, contPar=0
+
+        para(inteiro i = 0; i < 6; i++){
+            escreva("Digite um numero: ")
+            leia(num[i])
+                se(num[i] % 2 == 0){
+                    pares[i] = num[i]
+                    contPar++
+                }senao se(num[i] % 1 == 0) {
+                    impares[i] = num[i]
+                    contImpar++
+
+                }
+        }
+
+        para(inteiro l = 0; l < 6; l++){
+            se( pares[l] != 0){
+                escreva(pares[l])
+            }
+        }
+        escreva(" O total foi de: ",  contPar +  " numeros pares ")
+
+        para(inteiro k = 0; k<6; k++){
+            se(impares[k] != 0){
+                escreva(impares[k])
+            }
+        }
+        escreva(" O total foi de: ", contImpar + " numeros impares ")
+    }
+}
+
+2.
+
+programa{
+
+	
+	funcao inicio(){
+
+		inteiro numeros[7], mult2[7] ,mult3[7], hibridos[7]
+
+		para(inteiro i = 0; i < 7; i++ ){
+			leia(numeros[i])
+		}
+		para(inteiro f = 0; f < 7; f++){
+			se(numeros[f] % 3 == 0 e numeros[f] % 2 == 0){
+				hibridos[f] = numeros[f]
+				mult2[f] = numeros[f]
+				mult3[f] = numeros[f]
+				
+			}senao se (numeros[f] % 2 == 0){
+				mult2[f] = numeros[f]
+			}senao se (numeros[f] % 3 == 0){
+				mult3[f] = numeros[f]
+			}
+		}
+			escreva("múltiplos de 2 : ")
+				para(inteiro a = 0; a<7; a++){
+					se(mult2[a] !=0){
+						escreva(mult2[a]+"-")
+					}
+				}
+			escreva("múltiplos de 2 : ")
+				para(inteiro a = 0; a<7; a++){
+					se(mult3[a] !=0){
+						escreva(mult3[a]+"-")
+					}
+				}
+			escreva("múltiplos hibridos : ")
+				para(inteiro a = 0; a<7; a++){
+					se(hibridos[a] !=0){
+						escreva(hibridos[a]+"-")
+					}
+				}
+				
+			
+
+	}
+}
+
+
+
+4.
+
+programa {
+    funcao inicio() {
+
+        const inteiro  tam=5
+        inteiro vetor[tam]
+        inteiro i, qtd=0
+
+        para(i = 0; i < tam; i++){
+            escreva("\n Digite o valor: ")
+            leia(vetor[i])
+        }
+
+        para( i = 0; i < tam; i++){
+            se(vetor[i]==30){
+                escreva(i)
+                qtd++
+            }
+        }
+
+        se(qtd == 0){
+            escreva("\n Não há valores 30")
+        }senao {
+            escreva("\n Foi encontrado ", qtd, "valores 30")
+        }
+    }
+}
+
+
+5.
+programa {
+    funcao inicio() {
+
+        const inteiro tamLO= 15
+        const inteiro tamLP= 10
+        inteiro vetorLO[tamLO], vetorLP[tamLP], qtd=0
+
+        para(inteiro i = 0; i < tamLO; i++){
+            escreva("Digite o numero da matricula do aluno matriculado em Logica: \n")
+            leia(vetorLO[i])
+        }
+        para(inteiro i = 0; i < tamLP; i++){
+            escreva("Digite o numero da matricula do aluno matriculado em Logica: \n")
+            leia(vetorLO[i])
+        }
+
+        para(inteiro i = 0; i<tamLO;i++){
+            para (inteiro j = 0; j< tamLP; j++){
+                se(vetorLO[i]==vetorLP[j]){
+                    escreva("\n", vetorLO[i])
+                    qtd++
+                }
+            }
+        }
+        escreva("\n Total de alunos nas duas: ", qtd)
+    }
+}
+
+
+6.
+
+programa {
+    funcao inicio(){
+        const inteiro tam = 3
+        real  totalVendas[tam], percentual[tam]
+        cadeia vendedores[tam]
+        inteiro maior=0, menor=0, totVendas=0
+        
+        
+        para (inteiro i=0; i < tam; i++){
+            escreva("\nDigite o nome: ")
+            leia(vendedores[i])
+            escreva("\nDigite o valor total de venda: ")
+            leia(totalVendas[i])
+            totVendas += totVendas
+            escreva("\nDigite a comissão: ")
+            leia(percentual[i])
+            
+            se(percentual[menor] > percentual[i]){
+                menor=i
+            }
+            se(percentual[maior] < percentual[i]){
+                maior=i
+            }
+
+            
+        }
+        
+        para(inteiro i=0; i < tam; i++){
+            escreva("\nO vendedor", vendedores[i], "deve receber de comissão", percentual[i], "reais de comissionamento" )
+        }
+        escreva("\nTotal das vendas: ", totVendas)
+        escreva("\n O vendedor com maior valor a receber e: ", vendedores[maior])
+        escreva("\n O valor é: ", percentual[maior])
+        
+        escreva("\n O vendedor com menor valor a receber é: ", vendedores[menor])
+        escreva("\n O valor é: ", percentual[menor])
+    }
+}
+
+
+7.
+
+programa {
+	funcao inicio() {
+		const inteiro tam=3
+		cadeia produtosNome[tam]
+		inteiro produtosCodigo[tam]
+		real produtosPrecos[tam]
+		
+		  para (inteiro i=0; i < tam; i++){
+            escreva("\nDigite o nome do produto: ")
+            leia(produtosNome[i])
+            escreva("\nDigite o codigo do produto: ")
+            leia(produtosCodigo[i])
+            escreva("\nDigite o preço do produto: ")
+            leia(produtosPrecos[i])
+		  }
+		        
+		  para (inteiro i=0; i < tam; i++){
+            escreva("\nDigite o nome do produto: ", produtosNome[i])
+            escreva("\nDigite o codigo do produto: ", produtosCodigo[i])
+            escreva("\nDigite o preço do produto: ", produtosPrecos[i])
+            
+            se(produtosCodigo[i] % 2 == 0 e produtosPrecos[i] > 1000){
+                escreva("\n novo valor do produto ", produtosPrecos[i] * 1.20)
+            }senao {
+                se(produtosCodigo[i] % 2 == 0){
+                    escreva("\n novo valor do produto ", produtosPrecos[i] * 1.15)
+                }
+                se(produtosPrecos[i] > 1000){
+                    escreva("\n novo valor do produto ", produtosPrecos[i] * 1.10)
+                }
+            }
+            
+            
+		  }
+	}
+}
+
+
+10.
+programa {
+	funcao inicio() {
+	    const inteiro tam=5
+	    const inteiro tam2=10
+	    inteiro totalSegundoVetor=0
+	    inteiro div=0
+	    inteiro p1=0
+	    inteiro p2=0
+	    
+	    inteiro pVetor[tam2], sVetor[tam],vetorResultant1[tam2],vetorResultant2[tam2]
+	    
+	    para(inteiro i=0; i<tam2; i++){
+			escreva("\nDigite o primeiro vetor posição - ",i, " : ")
+			leia(pVetor[i])
+	    }
+	     para(inteiro i=0; i<tam; i++){
+			escreva("\nDigite o segundo vetor posição -",i, " : ")
+			leia(sVetor[i])
+			totalSegundoVetor+=sVetor[i]
+	    }
+	    
+	    para(inteiro i=0; i<tam2; i++){
+		 se(pVetor[i]%2==0){
+		     	 vetorResultant1[p1]=pVetor[i]+totalSegundoVetor
+		     	 p1++
+		 }
+	
+	    }
+	 
+	    para (inteiro i=0;i<p1;i++){
+	        escreva("\n",vetorResultant1[i])
+	    }
+	    
+	    
+	    para(inteiro i=0; i<tam2; i++){
+		 se(pVetor[i]%2==1){
+		     para (inteiro j=0;j<tam;j++){
+		         se(pVetor[i]%sVetor[j]==0){
+		             div++
+		         }
+		     }
+		     vetorResultant2[p2]=div
+		     div=0
+		     p2++
+		 
+		        
+		 }
+	        
+	    }
+	
+	    
+	      para (inteiro i=0;i<p2;i++){
+	        escreva("\n",vetorResultant2[i])
+	    }
+	    
+	}
+}
