@@ -278,10 +278,11 @@ programa {
 	        
 	    }
 	
-	    
 	      para (inteiro i=0;i<p2;i++){
 	        escreva("\n",vetorResultant2[i])
 	    }
 	    
 	}
 }
+
+//22/07/2021 - edicoes.
