@@ -227,6 +227,7 @@ programa {
 }
 
 
+
 10.
 programa {
 	funcao inicio() {
@@ -284,5 +285,3 @@ programa {
 	    
 	}
 }
-
-//22/07/2021 - edicoes.
