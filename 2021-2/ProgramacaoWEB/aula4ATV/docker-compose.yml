@@ -1,0 +1,35 @@
+# Ambiente para Programação WEB
+# Prof. Vinícius Magnus
+# apache + php + mysql + phpmyqdmin
+version: "3"
+services:
+    www:
+        build: .
+        ports: 
+            - "8001:80"
+        volumes:
+            - ./www:/var/www/html/
+        networks:
+            - default
+    db:
+        image: mysql:8.0
+        ports: 
+            - "3306:3306"
+        command: --default-authentication-plugin=mysql_native_password
+        environment:
+            MYSQL_ROOT_PASSWORD: test 
+        volumes:
+            - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+        networks:
+            - default
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        ports:
+            - 8000:80
+        environment:
+            MYSQL_ROOT_PASSWORD: test
+        networks:
+            - default
+networks:
+    default:
+        driver: bridge

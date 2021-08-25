@@ -1,0 +1,25 @@
+header{
+    background-color: #1abc9c;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    height: 200px;
+}
+
+nav{
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+section{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+}
+
+footer{
+    background-color: #2f2f2f;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+}
