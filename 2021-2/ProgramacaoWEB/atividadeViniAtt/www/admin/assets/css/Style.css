@@ -1,0 +1,40 @@
+header{
+    background-color: #ededed;
+    color: #2a3f54;
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+ }
+ nav{
+    background-color: #2a3f54;
+    color: #e7e7e7;
+    min-height:400px !important;
+ }
+  
+ nav a:link, nav a:visited, nav a:hover, nav a:active {
+    text-decoration: none;
+    color: #e7e7e7;
+ }
+  
+  
+  
+ section{
+    background-color: #f7f7f7;
+    color: #2a3f54;
+    min-height:400px !important;
+   
+   
+ }
+ footer{
+    background-color: #ededed;
+    color: #2a3f54;
+    text-align: center;
+    height: 100px;
+    clear: both;
+ }
+  
+  
+ a:link, a:visited,a:hover, a:active {
+    text-decoration: none;
+    }
+ 
