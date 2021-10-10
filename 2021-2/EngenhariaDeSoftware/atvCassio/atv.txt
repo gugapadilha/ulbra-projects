@@ -1,0 +1,9 @@
+package prova;
+
+public class teste2 {
+    public int quadrado(int x) {
+        return x * x;
+}
+    public int quadrado(int y) {
+    return y * y;
+}
