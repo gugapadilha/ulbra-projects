@@ -15,14 +15,11 @@ class ConnectClass{
         if($this -> conn -> connect_error){
             die("Conexão com o banco de dadosfalhou ->".$this -> conn -> connect_error);
         }
-
     }
 
     public function getConn(){
         return $this -> conn;
     }
-
-
 }
 
 ?>
