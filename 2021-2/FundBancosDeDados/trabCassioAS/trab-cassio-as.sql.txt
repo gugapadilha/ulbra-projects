@@ -1,0 +1,75 @@
+--feito no postgres do DBeaver
+
+CREATE TABLE professor(
+  idprof int NOT NULL PRIMARY key,
+  nome varchar(50),
+  endereco varchar(100),
+  cpf varchar(11),
+  idcid integer,
+  constraint cidade_fk
+      foreign key (idcid) 
+          references cidade(idcid)
+)
+CREATE TABLE  aluno(
+  idaluno int NOT NULL PRIMARY key,
+  nome varchar(50),
+  endereco varchar(100),
+  telefone varchar(11), 
+  idcid integer,
+  CONSTRAINT cidade_fk 
+      FOREIGN KEY (idcid) 
+          REFERENCES cidade (idcid)
+  ) 
+ Create table cidade(
+   idcid int NOT NULL PRIMARY key,
+   nome varchar(30),
+   uf varchar(02)
+)
+
+Create table turma(
+   idturma int NOT NULL PRIMARY key,
+   idprod int NOT NULL,
+   sala int,
+   capacidade varchar(50),
+   idcurso integer,
+      CONSTRAINT fk_curso
+          FOREIGN KEY (idcurso) 
+              REFERENCES curso (idcurso),
+   idprof integer,
+      CONSTRAINT fk_professor
+          FOREIGN KEY (idprof) 
+              REFERENCES professor (idprof)
+)
+
+CREATE TABLE disciplina(
+    iddiscip int NOT NULL PRIMARY key,
+    nome varchar(30)
+)
+
+CREATE TABLE turdisc(
+   idturma integer,
+      CONSTRAINT fk_turma
+          FOREIGN KEY (idturma) 
+              REFERENCES turma (idturma),
+   iddiscip integer,
+      CONSTRAINT fk_disciplina
+          FOREIGN KEY (iddiscip) 
+              REFERENCES disciplina (iddiscip)
+)
+
+CREATE TABLE  matricula(
+  data_matricula date,
+  idaluno integer,
+      CONSTRAINT fk_aluno
+          FOREIGN KEY (idaluno) 
+              REFERENCES aluno (idaluno),
+   idturma integer,
+      CONSTRAINT fk_turma
+          FOREIGN KEY (idturma) 
+              REFERENCES turma (idturma)
+)
+CREATE TABLE curso(
+  idcurso int NOT NULL PRIMARY key,
+  nomecurso varchar(30),
+  valorcredito int
+ )

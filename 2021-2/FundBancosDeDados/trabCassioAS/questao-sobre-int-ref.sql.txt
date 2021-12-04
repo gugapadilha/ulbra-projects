@@ -1,0 +1,10 @@
+-- Explique o conceito Integridade Referencial. De um exemplo SQL DDL para ilustrar melhor a sua explicação, 
+-- usando a modelagem relacional (“Academico”).
+
+
+-- Intregridade Refencial é ser íntegro em seu banco de dados. Onde as foreign keys estejam de acordo de quem está referenciando.
+
+-- Na tabela criada chamada Aluno, temos o idcid que referencia a tabela Cidade.Com esse relacionamento podemos saber em qual cidade o Aluno reside.
+-- Por exemplo, uma cidade com o idcid igual a 2 e um aluno com o idcid igual a 2 também, sabemos que esse aluno mora na cidade 2. Porém o
+-- banco de dados não poderá ter um Aluno que referencia um idcid que não existe, ou seja, uma cidade ainda não cadastrada no banco, isso torna
+-- o banco de dados íntegro com os dados. 
