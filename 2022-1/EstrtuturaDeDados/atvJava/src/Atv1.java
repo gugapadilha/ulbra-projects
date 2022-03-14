@@ -1,33 +1,24 @@
-import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Atv1 {
+    public static void main(String[] args) throws Exception {
 
-    public static void main(String[] args) {
+        Map<Integer, String> tempSemana = new HashMap<>();
+        tempSemana.put(32, "Domingo");
+        tempSemana.put(5, "Segunda");
+        tempSemana.put(20, "Terça");
+        tempSemana.put(26, "Quarta");
+        tempSemana.put(13, "Quinta");
+        tempSemana.put(22, "Sexta");
+        tempSemana.put(16, "Sábado");
 
-        var totalSum = 0;
+        var mediaTemperatura = tempSemana.keySet() // Retorna um Set com os valores
+                .stream() // Transforma o Set em Stream
+                .mapToInt(Integer::intValue) // Transforma o Set em Int
+                .average();// Retorna a média
 
-         Map<Object, String> tempSemana = new HashMap();
-         tempSemana.put(21, "segunda-feira");
-         tempSemana.put(26, "terça-feira");
-         tempSemana.put(31, "quarta-feira");
-         tempSemana.put(19, "quinta-feira");
-         tempSemana.put(8,  "sexta-feira");
-         tempSemana.put(33, "sabado");
-         tempSemana.put(30, "domingo");
-
-        System.out.println(tempSemana);
-
-         var media = tempSemana.keySet().stream().reduce(0, (a, b) -> somaTotal(a, b) / 7 );
-        System.out.println(media);
-
-        }
-
-        public static int somaTotal(Object a, Object b ){
-
-        return  somaTotal(a, b);
-
+        System.out.println("Média de temperatura: " + mediaTemperatura);
 
     }
 }
