@@ -1,0 +1,32 @@
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.exe
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.deps.json
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.runtimeconfig.json
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.runtimeconfig.dev.json
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.dll
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\ref\clientesCobrancas.dll
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.pdb
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.csproj.AssemblyReference.cache
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.AssemblyInfoInputs.cache
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.AssemblyInfo.cs
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.dll
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\ref\clientesCobrancas.dll
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.pdb
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.genruntimeconfig.cache
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.exe
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.deps.json
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.runtimeconfig.json
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.runtimeconfig.dev.json
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.dll
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\ref\clientesCobrancas.dll
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\bin\Debug\net5.0\clientesCobrancas.pdb
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.csproj.AssemblyReference.cache
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.AssemblyInfoInputs.cache
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.AssemblyInfo.cs
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.csproj.CoreCompileInputs.cache
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.dll
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\ref\clientesCobrancas.dll
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.pdb
+C:\Users\luand\Área de Trabalho\teste5\Ulbra-main\2022-1\Programação Orientada a Objetos\Aula06\clientesCobrancas\obj\Debug\net5.0\clientesCobrancas.genruntimeconfig.cache
