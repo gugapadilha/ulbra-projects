@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RedeDeRelacionamentos</string>
+    <string name="btn_calc">Calculate</string>
+    <string name="input_1">Primeiro Valor</string>
+    <string name="input_2">Segundo Valor</string>
+    <string name="title">Title Coins</string>
+</resources>
