@@ -1,4 +1,4 @@
-package com.guga.redederelacionamentos
+package com.guga.coinApp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

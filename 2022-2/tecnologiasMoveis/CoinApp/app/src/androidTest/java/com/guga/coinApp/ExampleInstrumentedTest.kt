@@ -1,4 +1,4 @@
-package com.guga.redederelacionamentos
+package com.guga.coinApp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

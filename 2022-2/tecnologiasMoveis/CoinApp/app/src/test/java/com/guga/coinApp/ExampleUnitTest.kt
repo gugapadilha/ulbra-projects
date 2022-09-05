@@ -1,4 +1,4 @@
-package com.guga.redederelacionamentos
+package com.guga.coinApp
 
 import org.junit.Test
 
