@@ -8,19 +8,30 @@
     tools:context="com.guga.coinApp.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_value_dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Dolar Result"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_real" />
+
+    <TextView
+        android:id="@+id/tv_value_real"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="@string/title"
+        android:text="Real Result"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/tv_cpf_register"
+        android:id="@+id/tv_real"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -34,14 +45,14 @@
         android:textColorHint="#a9a9a9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_value_real" />
 
     <EditText
-        android:id="@+id/tv_registered_email"
+        android:id="@+id/tv_dolar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/custom_button"
         android:drawablePadding="10dp"
@@ -52,11 +63,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_cpf_register"
+        app:layout_constraintTop_toBottomOf="@+id/tv_value_dolar"
         tools:ignore="TextFields" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/btn_singin"
+        android:id="@+id/btn_calculate"
         android:layout_width="220dp"
         android:layout_height="60dp"
         android:layout_marginTop="24dp"
@@ -64,7 +75,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_registered_email">
+        app:layout_constraintTop_toBottomOf="@+id/tv_dolar">
 
         <TextView
             android:id="@+id/btn_send_email"

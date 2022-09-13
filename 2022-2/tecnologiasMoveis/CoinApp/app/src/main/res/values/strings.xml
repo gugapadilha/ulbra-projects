@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">RedeDeRelacionamentos</string>
+    <string name="app_name">Coin App</string>
     <string name="btn_calc">Calculate</string>
-    <string name="input_1">Primeiro Valor</string>
-    <string name="input_2">Segundo Valor</string>
+    <string name="input_1">Valor em Real</string>
+    <string name="input_2">Valor em Dolar</string>
     <string name="title">Title Coins</string>
+    <string name="title_real">Real Result R$%s</string>
+    <string name="title_dolar">Dolar Result US$%s</string>
 </resources>
