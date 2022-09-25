@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.AgeActivity"
+            android:exported="true"
+            android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.SexActivity"
+            android:exported="true"
+            android:screenOrientation="locked">
+        </activity>
+        <activity
+            android:name=".activities.PesoActivity"
+            android:exported="true"
+            android:screenOrientation="locked">
+        </activity>
+        <activity
+            android:name=".activities.ExerciseActivity"
+            android:exported="true"
+            android:screenOrientation="locked">
+        </activity>
+
+        <activity
+            android:name=".activities.SmokerActivity"
+            android:exported="true"
+            android:screenOrientation="locked">
+        </activity>
+
+        <activity
+            android:name=".activities.PressureActivity"
+            android:exported="true"
+            android:screenOrientation="locked">
+        </activity>
+        <activity
+            android:name=".activities.HistoricActivity"
+            android:exported="true"
+            android:screenOrientation="locked">
+        </activity>
+
+        <activity
+            android:name=".activities.CholesterolActivity"
+            android:exported="true"
+            android:screenOrientation="locked">
+        </activity>
+    </application>
+
+</manifest>

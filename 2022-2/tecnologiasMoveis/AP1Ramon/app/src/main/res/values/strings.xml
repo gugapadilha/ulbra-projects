@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Risco Coronario</string>
+    <string name="label_10_a_20_anos">10 a 20 anos</string>
+    <string name="prompt_qual_sua_idade">Qual é sua idade?</string>
+</resources>
