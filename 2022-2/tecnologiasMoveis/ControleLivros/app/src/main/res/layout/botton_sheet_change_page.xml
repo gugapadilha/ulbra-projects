@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"/>
+
+    <ViewSwitcher
+        android:id="@+id/view_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateFirstView="true"
+        android:animateLayoutChanges="true">
+
+        <RelativeLayout
+            android:id="@+id/container_motivos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_text_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/text_field_search_background"
+                android:drawableStart="@drawable/ic_baseline_edit_24"
+                android:hint="@string/total_read_pages"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:textSize="19sp" />
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/edit_text_description"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15dp"
+                android:padding="2dp"
+                android:background="@drawable/circle_type_finance"
+                android:backgroundTint="#5C5C5C"
+                android:layout_marginBottom="-38dp">
+
+                <ImageView
+                    android:id="@+id/img_circulo"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circle_type_finance"
+                    app:tint="#5C5C5C" />
+
+                <ImageView
+                    android:id="@+id/image_add"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_centerInParent="true"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_baseline_save_24"
+                    app:tint="@color/white" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ViewSwitcher>
+
+</LinearLayout>

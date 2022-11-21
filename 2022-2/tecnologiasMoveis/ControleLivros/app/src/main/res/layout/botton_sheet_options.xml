@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"/>
+
+    <ViewSwitcher
+        android:id="@+id/view_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateFirstView="true"
+        android:animateLayoutChanges="true"
+        android:layout_marginBottom="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <TableLayout
+                android:id="@+id/container_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:id="@+id/tv_edit"
+                    android:layout_margin="8dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:visibility="visible"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".2"
+                        app:tint="@color/black"
+                        android:src="@drawable/ic_baseline_edit_24"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/black"
+                        android:text="@string/edit"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tv_delete"
+                    android:layout_margin="8dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".2"
+                        app:tint="@color/black"
+                        android:src="@drawable/ic_baseline_delete_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/black"
+                        android:text="@string/delete"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tv_edit_pages"
+                    android:layout_margin="8dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".2"
+                        app:tint="@color/black"
+                        android:src="@drawable/ic_pages"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/black"
+                        android:text="@string/edit_pages"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+            </TableLayout>
+        </RelativeLayout>
+    </ViewSwitcher>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ControleLivros</string>
+    <string name="title_home">Reading</string>
+    <string name="title_dashboard">Finished</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="title_reading">Reading</string>
+    <string name="title_finished">Finished</string>
+    <string name="save">SAVE</string>
+    <string name="update">UPDATE</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="total_pages">Total Pages</string>
+    <string name="total_read_pages">Read Pages</string>
+    <string name="isbn">ISBN</string>
+    <string name="register_book">Register Book</string>
+    <string name="change_pages">Change Pages</string>
+    <string name="add_book">Add Book</string>
+    <string name="author">Author</string>
+    <string name="msm_not_read">No books being read were found</string>
+    <string name="msm_read">Books being read were found</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="edit_pages">Change Pages</string>
+</resources>

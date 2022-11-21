@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Controle De Livros</string>
+    <string name="title_home">Início</string>
+    <string name="title_dashboard">Painel de Controle</string>
+    <string name="title_notifications">Notificações</string>
+
+
+    <string name="title_reading">Lendo</string>
+    <string name="title_finished">Finalizado</string>
+    <string name="save">SALVAR</string>
+    <string name="update">ALTERAR</string>
+    <string name="title">Título</string>
+    <string name="description">Descrição</string>
+    <string name="total_pages">Total De Páginas</string>
+    <string name="isbn">ISBN</string>
+    <string name="register_book">Registrar Livro</string>
+    <string name="add_book">Adicionar Livro</string>
+    <string name="author">Autor</string>
+    <string name="total_read_pages">Páginas Lidas</string>
+    <string name="msm_not_read">Nenhum livro sendo lido foi encontrado</string>
+    <string name="msm_read">Nenhum livro lido foi encontrado</string>
+
+    <string name="delete">Remover</string>
+    <string name="edit">Editar</string>
+    <string name="edit_pages">Páginas Lidas</string>
+    <string name="change_pages">Alterar Páginas</string>
+</resources>
