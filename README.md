@@ -1,2 +1,3 @@
 # ulbra-projects
-Aqui estão todos meus projetos feitos durante o período de aulas na faculdade e seus respectivos anos
+
+Here are all my projects done during the college term and their respective years.
